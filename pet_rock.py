@@ -8,9 +8,30 @@ class Rock:
         self.health = 100
         self.max_health = 100
 
+        self.food_choices = {"Apple", "Burger", "Instant noodles"}
+        self.choices = ["Feed the rock", "Play with the rock", "Throw the rock away", "Name the rock"]
+
     def show_stats(self):
         print(f"Health: {self.health}/{self.max_health}")
         print(f"Hunger: {self.hunger}/{self.max_hunger}")
+
+    def parse_choice(self, choice):
+        if choice == "Feed the rock":
+            food_choice = show_choices(self.food_choices, "What would you like to feed the rock?")
+            if food_choice in ["Apple", "Instant noodles"]:
+                print(f"You set the {food_choice.lower()} beside the rock, unsure of how to feed it. After a few seconds, you feel a sharp pain in your head",
+                      "as the rock speaks:",
+                      '\t"What is this? This isn\'t food! Bring me something I can eat, like flesh or a sacrafice"',
+                      "The pain in your head subsides as quickly as it appeared, and you are left standing, confused.", sep="\n")
+                self.food_choices.difference_update({"Apple", "Instant noodles"})
+                self.food_choices.update({"Raw beef", "Finger", "Goat"})
+            elif food_choice == "Burger":
+                print("You put the burger next to the rock, and it speaks:",
+                      '\t"Hmmmm... this is edible, but I perfer raw or still-living foods"'
+                      "You walk away as the burger disappears, concerned for what you will have to do to fulfill the rock's hunger", sep="\n")
+                print("+10 hunger")
+                self.hunger += 10
+                self.food_choices.update({"Raw beef", "Finger", "Goat"})
 
 
 def show_choices(choices, intro=""):
@@ -22,19 +43,19 @@ def show_choices(choices, intro=""):
             for i, choice in enumerate(choices):
                 print(f"\t{i + 1}. {choice}")
 
-            player_choice = int(input("What would you like to do? "))
+            player_choice = int(input("Choose an option: "))
 
             if player_choice > len(choices):
                 print(f"Pick a value less than {len(choices)}")
                 continue
-            break
+
+            return choices[player_choice - 1]
         except ValueError:
             continue
 
 
 def main():
     day_count = 0
-    choices = ["Feed the rock", "Play with the rock", "Throw the rock away", "Name the rock"]
     rock = Rock()
 
     print("One fateful day, while walking on the side of the road, you are all of a sudden blinded.",
@@ -52,8 +73,11 @@ def main():
         while True:
             day_count += 1
             print(f"Day {day_count}:\n")
-            print(rock.show_stats())
-            print(show_choices(choices, "What would you like to do?"))
+            rock.show_stats()
+            player_choice = show_choices(rock.choices, "What would you like to do?")
+
+            rock.parse_choice(player_choice)
+
     except KeyboardInterrupt:
         print(f"\n{rock.name} is dissapointed in you for abandoning it. Please do better next time")
 
