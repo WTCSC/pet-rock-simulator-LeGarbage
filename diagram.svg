@@ -1,0 +1,121 @@
+<svg xmlns='http://www.w3.org/2000/svg' style='font-size:initial;' class="pikchr" viewBox="0 0 1619.1 960.077" data-pikchr-date="20250321215505">
+<path d="M2.16,92.16L110.16,92.16L110.16,20.16L2.16,20.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="56.16" y="56.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Initial story</text>
+<polygon points="182.16,56.16 170.64,60.48 170.64,51.84" style="fill:rgb(0,0,0)"/>
+<path d="M110.16,56.16L176.4,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M182.16,92.16L290.16,92.16L290.16,20.16L182.16,20.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="236.16" y="56.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Game loop</text>
+<polygon points="362.16,56.16 350.64,60.48 350.64,51.84" style="fill:rgb(0,0,0)"/>
+<path d="M290.16,56.16L356.4,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M362.16,92.16L502.358,92.16L502.358,20.16L362.16,20.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="432.259" y="46.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Print day count</text>
+<text x="432.259" y="66.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">and stats</text>
+<polygon points="574.358,56.16 562.838,60.48 562.838,51.84" style="fill:rgb(0,0,0)"/>
+<path d="M502.358,56.16L568.598,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M574.358,92.16L705.571,92.16L705.571,20.16L574.358,20.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="639.965" y="46.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Show possible</text>
+<text x="639.965" y="66.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">choices</text>
+<polygon points="777.571,56.16 766.051,60.48 766.051,51.84" style="fill:rgb(0,0,0)"/>
+<path d="M705.571,56.16L771.811,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M777.571,56.16L849.571,110.16L921.571,56.16L849.571,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="849.571" y="56.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is choice valid?</text>
+<polygon points="639.965,92.16 644.285,103.68 635.645,103.68" style="fill:rgb(0,0,0)"/>
+<path d="M849.571,110.16L849.571,166.853L639.965,166.853L639.965,97.92"  style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(0,0,0);" />
+<text x="744.768" y="129.506" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">No</text>
+<polygon points="993.571,56.16 982.051,60.48 982.051,51.84" style="fill:rgb(0,0,0)"/>
+<path d="M921.571,56.16L987.811,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="957.571" y="44.46" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Yes</text>
+<path d="M993.571,56.16L1065.57,110.16L1137.57,56.16L1065.57,2.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="56.16" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is choice feed?</text>
+<polygon points="1065.57,166.853 1061.25,155.333 1069.89,155.333" style="fill:rgb(0,0,0)"/>
+<path d="M1065.57,110.16L1065.57,161.093"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="138.506" text-anchor="end" fill="rgb(0,0,0)" dominant-baseline="central">No  </text>
+<path d="M993.571,220.853L1065.57,274.853L1137.57,220.853L1065.57,166.853Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="220.853" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is choice play?</text>
+<polygon points="1065.57,331.546 1061.25,320.026 1069.89,320.026" style="fill:rgb(0,0,0)"/>
+<path d="M1065.57,274.853L1065.57,325.786"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="303.199" text-anchor="end" fill="rgb(0,0,0)" dominant-baseline="central">No  </text>
+<path d="M946.207,392.746L1065.57,453.946L1184.94,392.746L1065.57,331.546Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="382.666" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is choice throw</text>
+<text x="1065.57" y="402.826" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">away?</text>
+<polygon points="1065.57,510.639 1061.25,499.119 1069.89,499.119" style="fill:rgb(0,0,0)"/>
+<path d="M1065.57,453.946L1065.57,504.879"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="482.292" text-anchor="end" fill="rgb(0,0,0)" dominant-baseline="central">No  </text>
+<path d="M993.571,564.639L1065.57,618.639L1137.57,564.639L1065.57,510.639Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="564.639" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is choice name?</text>
+<polygon points="1065.57,675.332 1061.25,663.812 1069.89,663.812" style="fill:rgb(0,0,0)"/>
+<path d="M1065.57,618.639L1065.57,669.572"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="646.985" text-anchor="end" fill="rgb(0,0,0)" dominant-baseline="central">No  </text>
+<path d="M993.571,729.332L1065.57,783.332L1137.57,729.332L1065.57,675.332Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1065.57" y="719.252" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is choice</text>
+<text x="1065.57" y="739.412" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">nothing?</text>
+<polygon points="1209.57,56.16 1198.05,60.48 1198.05,51.84" style="fill:rgb(0,0,0)"/>
+<path d="M1137.57,56.16L1203.81,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1173.57" y="44.46" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Yes</text>
+<path d="M1209.57,92.16L1317.57,92.16L1317.57,20.16L1209.57,20.16Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1263.57" y="46.08" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Choose food</text>
+<text x="1263.57" y="66.24" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">and react</text>
+<polygon points="1209.57,220.853 1198.05,225.173 1198.05,216.533" style="fill:rgb(0,0,0)"/>
+<path d="M1137.57,220.853L1203.81,220.853"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1173.57" y="209.153" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Yes</text>
+<path d="M1209.57,256.853L1349.54,256.853L1349.54,184.853L1209.57,184.853Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1279.56" y="210.773" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Choose activity</text>
+<text x="1279.56" y="230.933" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">and react</text>
+<polygon points="1256.94,392.746 1245.42,397.066 1245.42,388.426" style="fill:rgb(0,0,0)"/>
+<path d="M1184.94,392.746L1251.18,392.746"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1220.94" y="381.046" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Yes</text>
+<path d="M1256.94,428.746L1364.94,428.746L1364.94,356.746L1256.94,356.746Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1310.94" y="392.746" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Confirm</text>
+<polygon points="1436.94,392.746 1425.42,397.066 1425.42,388.426" style="fill:rgb(0,0,0)"/>
+<path d="M1364.94,392.746L1431.18,392.746"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M1436.94,428.746L1544.94,428.746L1544.94,356.746L1436.94,356.746Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1490.94" y="392.746" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">React</text>
+<path d="M1544.94,392.746L1616.94,392.746"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<polygon points="1209.57,564.639 1198.05,568.959 1198.05,560.319" style="fill:rgb(0,0,0)"/>
+<path d="M1137.57,564.639L1203.81,564.639"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1173.57" y="552.939" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Yes</text>
+<path d="M1209.57,600.639L1317.57,600.639L1317.57,528.639L1209.57,528.639Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1263.57" y="564.639" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Ask for name</text>
+<polygon points="1389.57,564.639 1378.05,568.959 1378.05,560.319" style="fill:rgb(0,0,0)"/>
+<path d="M1317.57,564.639L1383.81,564.639"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M1389.57,600.639L1497.57,600.639L1497.57,528.639L1389.57,528.639Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1443.57" y="554.559" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Change name</text>
+<text x="1443.57" y="574.719" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">and react</text>
+<polygon points="1209.57,729.332 1198.05,733.652 1198.05,725.012" style="fill:rgb(0,0,0)"/>
+<path d="M1137.57,729.332L1203.81,729.332"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M1209.57,765.332L1317.57,765.332L1317.57,693.332L1209.57,693.332Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="1263.57" y="729.332" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">React</text>
+<polygon points="1065.57,896.717 1077.09,892.397 1077.09,901.037" style="fill:rgb(0,0,0)"/>
+<path d="M1616.94,56.16L1616.94,896.717L1071.33,896.717"  style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(0,0,0);" />
+<path d="M1317.57,56.16L1616.94,56.16"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M1349.54,220.853L1616.94,220.853"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M1497.57,564.639L1616.94,564.639"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M1317.57,729.332L1616.94,729.332"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M924.221,932.717L1065.57,932.717L1065.57,860.717L924.221,860.717Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="994.896" y="886.637" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Subtract end of</text>
+<text x="994.896" y="906.797" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">day penatlites</text>
+<polygon points="852.221,896.717 863.741,892.397 863.741,901.037" style="fill:rgb(0,0,0)"/>
+<path d="M924.221,896.717L857.981,896.717"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M708.221,896.717L780.221,950.717L852.221,896.717L780.221,842.717Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="780.221" y="886.637" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is hunger</text>
+<text x="780.221" y="906.797" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">below 0?</text>
+<path d="M349.546,896.717L459.216,957.917L568.887,896.717L459.216,835.517Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="459.216" y="886.637" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Is satisfaction</text>
+<text x="459.216" y="906.797" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">below 0?</text>
+<polygon points="568.887,896.717 580.407,892.397 580.407,901.037" style="fill:rgb(0,0,0)"/>
+<path d="M708.221,896.717L574.647,896.717"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="638.554" y="885.017" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">No</text>
+<polygon points="236.16,92.16 240.48,103.68 231.84,103.68" style="fill:rgb(0,0,0)"/>
+<path d="M349.546,896.717L236.16,896.717L236.16,97.92"  style="fill:none;stroke-width:2.16;stroke-linejoin:round;stroke:rgb(0,0,0);" />
+<text x="292.853" y="482.739" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">No</text>
+<path d="M780.221,842.717L780.221,770.717"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="780.221" y="806.717" text-anchor="end" fill="rgb(0,0,0)" dominant-baseline="central">Yes  </text>
+<path d="M459.216,835.517L459.216,763.517"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="459.216" y="799.517" text-anchor="end" fill="rgb(0,0,0)" dominant-baseline="central">Yes  </text>
+<path d="M780.221,770.717L459.216,763.517"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<polygon points="619.719,695.117 624.039,706.637 615.399,706.637" style="fill:rgb(0,0,0)"/>
+<path d="M619.719,767.117L619.719,700.877"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<path d="M565.719,695.117L673.719,695.117L673.719,623.117L565.719,623.117Z"  style="fill:none;stroke-width:2.16;stroke:rgb(0,0,0);" />
+<text x="619.719" y="659.117" text-anchor="middle" fill="rgb(0,0,0)" dominant-baseline="central">Game over</text>
+</svg>
+

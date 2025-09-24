@@ -1,0 +1,117 @@
+box "Initial story"
+
+arrow
+
+BLoop: box "Game loop"
+
+arrow
+
+box "Print day count" "and stats" width 0
+
+arrow
+
+box "Show possible" "choices" width 0
+
+arrow
+
+diamond "Is choice valid?"
+
+arrow "No" from last diamond.s \
+    down 1cm \
+    then left until even with last box \
+    then to last box.s
+
+arrow "Yes" above from last diamond.e right
+
+D1: diamond "Is choice feed?"
+
+arrow "No  " rjust from last diamond.s \
+    down 1cm
+
+D2: diamond "Is choice play?"
+
+arrow "No  " rjust from last diamond.s \
+    down 1cm
+
+D3: diamond "Is choice throw" "away?" width 0
+
+arrow "No  " rjust from last diamond.s \
+    down 1cm
+
+D4: diamond "Is choice name?"
+
+arrow "No  " rjust from last diamond.s \
+    down 1cm
+
+D5: diamond "Is choice" "nothing?"
+
+arrow "Yes" above from D1.e right
+
+box "Choose food" "and react"
+
+M1: dot invisible
+
+arrow "Yes" above from D2.e right
+
+box "Choose activity" "and react" width 0
+
+M2: dot invisible
+
+arrow "Yes" above from D3.e right
+
+box "Confirm"
+
+arrow
+
+box "React"
+
+L1: line
+
+arrow "Yes" above from D4.e right
+
+box "Ask for name"
+
+arrow
+
+box "Change name" "and react"
+
+M3: dot invisible
+
+arrow from D5.e right
+
+box "React"
+
+M4: dot invisible
+
+A1: arrow from (L1.e, D1) \
+    down until even with D5.s + (0, -2cm) \
+    then left until even with D5.s + (0, -2cm)
+
+line from M1 right until even with A1.e
+line from M2 right until even with A1.e
+line from M3 right until even with A1.e
+line from M4 right until even with A1.e
+
+left
+
+box "Subtract end of" "day penatlites" with .e at A1.sw width 0
+
+arrow
+
+QHunger: diamond "Is hunger" "below 0?"
+
+QSatisfaction: diamond "Is satisfaction" "below 0?" width 0 with .w at (BLoop + (2cm, 0), QHunger)
+
+arrow "No" above from QHunger.w to QSatisfaction.e
+
+arrow "No" above from QSatisfaction.w \
+    left 2cm \
+    then to BLoop.s
+
+LH: line "Yes  " rjust up from QHunger.n
+LS: line "Yes  " rjust up from QSatisfaction.n
+line from LH.n to LS.n
+
+arrow from last up
+
+box "Game over"
